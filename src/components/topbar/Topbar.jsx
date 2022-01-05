@@ -3,7 +3,8 @@ import "./Topbar.css"
 import {
     NotificationsOutlined,
     TranslateOutlined,
-    SettingsOutlined
+    SettingsOutlined,
+    FiberSmartRecordOutlined
 } from '@mui/icons-material';
 
 export default function Topbar() {
@@ -11,7 +12,9 @@ export default function Topbar() {
         <div className='topbar'>
             <div className="topbarWrapper">
                 <div className="topLeft">
-                    <span className='topLogo'>Vanilla Admin</span>
+                    <span className='topLogo'>
+                        <FiberSmartRecordOutlined /> &nbsp; Vanilla Admin
+                    </span>
                 </div>
                 <div className="topRight">
                     <div className="topbarIconContainer">

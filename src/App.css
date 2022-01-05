@@ -1,3 +1,20 @@
 * {
     font-family: 'Roboto', sand-serif;
 }
+
+body {
+    color: #2e2835;
+}
+
+.container {
+    display: flex;
+}
+
+.pageWrapper {
+    flex: 5;
+    padding: 20px;
+}
+
+.sectionTitle {
+    margin-top: 0;
+}
