@@ -1,15 +1,16 @@
 import Topbar from "./components/topbar/Topbar";
 import Sidebar from "./components/sidebar/Sidebar";
 import "./App.css";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
     <div>
       <Topbar />
       <div className="container">
-        <Sidebar/>
+        <Sidebar />
         <div className="pageWrapper">
-          <h3 className="sectionTitle">Dashboard</h3>
+          <Home />
         </div>
       </div>
     </div>
