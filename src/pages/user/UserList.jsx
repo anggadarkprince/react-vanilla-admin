@@ -49,8 +49,8 @@ export default function UserList() {
     ];
 
     const actions = [
-        <Link to={"/users/create"}>
-            <button className="userListCreate">Create <Add/></button>
+        <Link to={"/users/create"} className="userListCreate">
+            Create <Add/>
         </Link>
     ]
 

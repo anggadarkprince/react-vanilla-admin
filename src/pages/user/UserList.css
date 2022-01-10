@@ -34,6 +34,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .userListCreate svg {
