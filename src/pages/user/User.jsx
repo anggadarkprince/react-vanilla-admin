@@ -1,14 +1,15 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './User.css'
 import PageTitle from "../../components/pageTitle/PageTitle";
 import {Link} from "react-router-dom";
 import {
     AccountCircleOutlined,
     Add,
-    CalendarTodayOutlined, LocationSearchingOutlined,
+    CalendarTodayOutlined,
+    LocationSearchingOutlined,
     MailOutlined,
-    PermIdentityOutlined,
-    PhoneAndroidOutlined, PublishOutlined, UploadFileOutlined
+    PhoneAndroidOutlined,
+    UploadFileOutlined
 } from "@mui/icons-material";
 
 export default function User() {

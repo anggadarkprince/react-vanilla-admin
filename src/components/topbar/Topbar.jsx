@@ -6,15 +6,16 @@ import {
     SettingsOutlined,
     FiberSmartRecordOutlined
 } from '@mui/icons-material';
+import {Link} from "react-router-dom";
 
 export default function Topbar() {
     return (
         <div className='topbar'>
             <div className="topbarWrapper">
                 <div className="topLeft">
-                    <span className='topLogo'>
-                        <FiberSmartRecordOutlined /> &nbsp; Vanilla Admin
-                    </span>
+                    <Link to={'/'} className='topLogo'>
+                        <FiberSmartRecordOutlined />&nbsp;Vanilla Admin
+                    </Link>
                 </div>
                 <div className="topRight">
                     <div className="topbarIconContainer">
