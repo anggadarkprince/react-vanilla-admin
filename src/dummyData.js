@@ -36,3 +36,102 @@ export const userData = [
         activeUser: 3422,
     },
 ];
+
+export const userRows = [
+    {
+        id: 1,
+        username: 'anggadarkprince',
+        avatar: 'https://www.w3schools.com/howto/img_avatar.png',
+        email: 'anggadarkprince@gmail.com',
+        status: 'ACTIVE',
+        transaction: '$2,423'
+    },
+    {
+        id: 2,
+        username: 'anggadarkprince',
+        avatar: 'https://www.w3schools.com/howto/img_avatar.png',
+        email: 'anggadarkprince@gmail.com',
+        status: 'ACTIVE',
+        transaction: '$2,423'
+    },
+    {
+        id: 3,
+        username: 'anggadarkprince',
+        avatar: 'https://www.w3schools.com/howto/img_avatar.png',
+        email: 'anggadarkprince@gmail.com',
+        status: 'ACTIVE',
+        transaction: '$2,423'
+    },
+    {
+        id: 4,
+        username: 'anggadarkprince',
+        avatar: 'https://www.w3schools.com/howto/img_avatar.png',
+        email: 'anggadarkprince@gmail.com',
+        status: 'ACTIVE',
+        transaction: '$2,423'
+    },
+    {
+        id: 5,
+        username: 'anggadarkprince',
+        avatar: 'https://www.w3schools.com/howto/img_avatar.png',
+        email: 'anggadarkprince@gmail.com',
+        status: 'ACTIVE',
+        transaction: '$2,423'
+    },
+    {
+        id: 6,
+        username: 'anggadarkprince',
+        avatar: 'https://www.w3schools.com/howto/img_avatar.png',
+        email: 'anggadarkprince@gmail.com',
+        status: 'ACTIVE',
+        transaction: '$2,423'
+    },
+    {
+        id: 7,
+        username: 'anggadarkprince',
+        avatar: 'https://www.w3schools.com/howto/img_avatar.png',
+        email: 'anggadarkprince@gmail.com',
+        status: 'ACTIVE',
+        transaction: '$2,423'
+    },
+    {
+        id: 8,
+        username: 'anggadarkprince',
+        avatar: 'https://www.w3schools.com/howto/img_avatar.png',
+        email: 'anggadarkprince@gmail.com',
+        status: 'ACTIVE',
+        transaction: '$2,423'
+    },
+    {
+        id: 9,
+        username: 'anggadarkprince',
+        avatar: 'https://www.w3schools.com/howto/img_avatar.png',
+        email: 'anggadarkprince@gmail.com',
+        status: 'ACTIVE',
+        transaction: '$2,423'
+    },
+    {
+        id: 10,
+        username: 'anggadarkprince',
+        avatar: 'https://www.w3schools.com/howto/img_avatar.png',
+        email: 'anggadarkprince@gmail.com',
+        status: 'ACTIVE',
+        transaction: '$2,423'
+    },
+    {
+        id: 11,
+        username: 'anggadarkprince',
+        avatar: 'https://www.w3schools.com/howto/img_avatar.png',
+        email: 'anggadarkprince@gmail.com',
+        status: 'ACTIVE',
+        transaction: '$2,423'
+    },
+    {
+        id: 12,
+        username: 'anggadarkprince',
+        avatar: 'https://www.w3schools.com/howto/img_avatar.png',
+        email: 'anggadarkprince@gmail.com',
+        status: 'ACTIVE',
+        transaction: '$2,423'
+    },
+];

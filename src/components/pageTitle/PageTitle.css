@@ -1,0 +1,19 @@
+.pageTitleWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pageTitle {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.pageSubTitle {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    color: #919191;
+}

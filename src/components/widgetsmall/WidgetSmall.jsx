@@ -5,7 +5,7 @@ import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 export default function WidgetSmall() {
     return (
         <div className='widgetSmall'>
-            <span className='widgetSmallTitle'>New Join Members</span>
+            <h3 className='widgetSmallTitle'>New Join Members</h3>
             <ul className='widgetSmallList'>
                 <li className="widgetSmallListItem">
                     <div className='widgetSmallProfile'>
