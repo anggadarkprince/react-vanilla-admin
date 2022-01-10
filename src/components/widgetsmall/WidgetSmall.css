@@ -3,12 +3,13 @@
     padding: 20px;
     -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 4px 15px -10px rgba(0, 0, 0, 0.75);
-    border: 1px solid rgb(238, 238, 238);
+    border: 1px solid rgb(246, 246, 246);
     margin-right: 20px;
+    border-radius: 5px;
 }
 
 .widgetSmallTitle {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -45,10 +46,14 @@
 
 .widgetSmallUsername {
     font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 4px;
 }
 
 .widgetSmallUserTitle {
     font-weight: 300;
+    font-size: 14px;
+    color: #6d6d6d;
 }
 
 .widgetSmallButton {
@@ -60,6 +65,11 @@
     background-color: #eeeef7;
     color: #555;
     cursor: pointer;
+    font-size: 14px;
+}
+
+.widgetSmallButton:hover {
+    background-color: #dec9ff;
 }
 
 .widgetSmallIcon {
