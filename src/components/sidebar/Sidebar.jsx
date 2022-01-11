@@ -14,6 +14,7 @@ import {
     AccountCircleOutlined,
     LogoutOutlined,
 } from '@mui/icons-material';
+import {NavLink} from "react-router-dom";
 
 export default function Sidebar() {
     return (
@@ -22,64 +23,88 @@ export default function Sidebar() {
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">Dashboard</h3>
                     <ul className='sidebarList'>
-                        <li className="sidebarListItem active">
-                            <HomeOutlined sx={{ color: "#6E3CBC" }} className='sidebarIcon' />
-                            Home
+                        <li className="sidebarListItem">
+                            <NavLink to="/" className="sidebarListItemLink">
+                                <HomeOutlined sx={{ color: "#6E3CBC" }} className='sidebarIcon' />
+                                Home
+                            </NavLink>
                         </li>
                         <li className="sidebarListItem">
-                            <ShoppingCartOutlined  className='sidebarIcon' />
-                            Sales
+                            <NavLink to="/sales" className="sidebarListItemLink">
+                                <ShoppingCartOutlined  className='sidebarIcon' />
+                                Sales
+                            </NavLink>
                         </li>
                         <li className="sidebarListItem">
-                            <TimelineOutlined className='sidebarIcon' />
-                            Analytics
+                            <NavLink to="/analytic" className="sidebarListItemLink">
+                                <TimelineOutlined className='sidebarIcon' />
+                                Analytics
+                            </NavLink>
                         </li>
                     </ul>
                     <h3 className="sidebarTitle">Main Menu</h3>
                     <ul className='sidebarList'>
                         <li className="sidebarListItem">
-                            <PeopleAltOutlined className='sidebarIcon' />
-                            Users
+                            <NavLink to="/users" className="sidebarListItemLink">
+                                <PeopleAltOutlined className='sidebarIcon' />
+                                Users
+                            </NavLink>
                         </li>
                         <li className="sidebarListItem">
-                            <Inventory2Outlined className='sidebarIcon' />
-                            Products
+                            <NavLink to="/products" className="sidebarListItemLink">
+                                <Inventory2Outlined className='sidebarIcon' />
+                                Products
+                            </NavLink>
                         </li>
                         <li className="sidebarListItem">
-                            <ReceiptLongOutlined className='sidebarIcon' />
-                            Transactions
+                            <NavLink to="/transactions" className="sidebarListItemLink">
+                                <ReceiptLongOutlined className='sidebarIcon' />
+                                Transactions
+                            </NavLink>
                         </li>
                         <li className="sidebarListItem">
-                            <AssessmentOutlined className='sidebarIcon' />
-                            Reports
+                            <NavLink to="/reports" className="sidebarListItemLink">
+                                <AssessmentOutlined className='sidebarIcon' />
+                                Reports
+                            </NavLink>
                         </li>
                     </ul>
 
                     <h3 className="sidebarTitle">Notification</h3>
                     <ul className='sidebarList'>
                         <li className="sidebarListItem">
-                            <EmailOutlined className='sidebarIcon' />
-                            Messages
+                            <NavLink to="/messages" className="sidebarListItemLink">
+                                <EmailOutlined className='sidebarIcon' />
+                                Messages
+                            </NavLink>
                         </li>
                         <li className="sidebarListItem">
-                            <ThumbUpAltOutlined className='sidebarIcon' />
-                            Feedback
+                            <NavLink to="/feedback" className="sidebarListItemLink">
+                                <ThumbUpAltOutlined className='sidebarIcon' />
+                                Feedback
+                            </NavLink>
                         </li>
                     </ul>
 
                     <h3 className="sidebarTitle">Preferences</h3>
                     <ul className='sidebarList'>
                         <li className="sidebarListItem">
-                            <SettingsOutlined className='sidebarIcon' />
-                            Settings
+                            <NavLink to="/settings" className="sidebarListItemLink">
+                                <SettingsOutlined className='sidebarIcon' />
+                                Settings
+                            </NavLink>
                         </li>
                         <li className="sidebarListItem">
-                            <AccountCircleOutlined className='sidebarIcon' />
-                            Account
+                            <NavLink to="/account" className="sidebarListItemLink">
+                                <AccountCircleOutlined className='sidebarIcon' />
+                                Account
+                            </NavLink>
                         </li>
                         <li className="sidebarListItem">
-                            <LogoutOutlined className='sidebarIcon' />
-                            Logout
+                            <NavLink to="/logout" className="sidebarListItemLink">
+                                <LogoutOutlined className='sidebarIcon' />
+                                Logout
+                            </NavLink>
                         </li>
                     </ul>
                 </div>
